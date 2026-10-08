@@ -1,0 +1,119 @@
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8df;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid #e5c45c;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    background-color: #173b5c;
+    color: white;
+    margin: 0;
+    padding: 12px;
+    border-radius: 10px 10px 0 0;
+    font-size: 28px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    margin: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Different navigation colors */
+nav a:nth-child(1) {
+    background-color: #1596b5;
+}
+
+nav a:nth-child(2) {
+    background-color: #329b54;
+}
+
+nav a:nth-child(3) {
+    background-color: #8840a3;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+/* All sections */
+.home,
+.gallery,
+.contact {
+    margin: 7px 0;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Home */
+.home {
+    background-color: #ffe5ed;
+    border: 2px solid #f2a6bd;
+}
+
+/* Gallery */
+.gallery {
+    background-color: #d8f9d8;
+    border: 2px solid #83d889;
+}
+
+/* Contact */
+.contact {
+    background-color: #d9f0ff;
+    border: 2px solid #7fc5e8;
+}
+
+/* Section headings */
+h2 {
+    margin: 0 0 5px 0;
+    font-family: Georgia, serif;
+    color: #173b5c;
+}
+
+/* Gallery images */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.images img {
+    width: 220px;
+    height: 130px;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 3px;
+}
+
+/* Paragraphs */
+p {
+    margin: 5px 0;
+    line-height: 1.4;
+}
